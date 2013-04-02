@@ -1,0 +1,193 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/icon1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i0" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/icon2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i1" >
+        </ImageButton>
+        
+        
+    </TableRow>
+
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/stepLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="3"
+            android:text="Le client 1 commande xxx\nLe client 2 commande xxx\nQue servez-vous au client x ?" >
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="2dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_span="3"            
+            android:background="#000000" >
+        </View>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txt0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" un burger " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" une pizza " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" des frites " >
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/id0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i0" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i1" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i2" >
+        </ImageButton>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" un soda " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" un hotdog " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" une glace " >
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/id3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i3" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i4" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i5" >
+        </ImageButton>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/txt6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" un donut " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" un esquimau " >
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" une tarte " >
+        </TextView>
+    </TableRow>
+
+    <TableRow>
+
+        <ImageButton
+            android:id="@+id/id6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i6" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i7" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/id8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/i8" >
+        </ImageButton>
+    </TableRow>
+
+</TableLayout>
