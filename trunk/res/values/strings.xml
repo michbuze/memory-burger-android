@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Memory Burger (pour Android)</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_memory_burger_android">Memory Burger (pour Android)</string>
+
+</resources>
